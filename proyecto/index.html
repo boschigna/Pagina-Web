@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROYECTO TIC</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script>
+        (function() {
+            emailjs.init("kfElc_7eh9kNvRfZBAfp3");
+        })();
+    </script>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="imagenes/descarga__1_-removebg-preview.png" alt="Logo"></a>
+            <div class="nav-links" id="nav-links">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="#about">SOBRE NOSOTROS</a></li>
+                    <li><a href="#course">CURSOS</a></li>
+                    <li><a href="#blog">VLOG</a></li>
+                    <li><a href="bosch.html">BOSCH Y AMIGHINI</a></li>
+
+                </ul>
+                <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+            </div>
+        </nav>
+        <div class="text-box">
+            <h1>El Colegio más grande del mundo.</h1>
+            <p>Esta página fue fácil de hacer. Solo necesitas aprender HTML, CSS <br>y JavaScript. Si no entiendes algo, pregúntale a Igna.</p>
+            <a href="" class="hero-btn">Visítanos para saber más</a>
+        </div>
+    </section>
+
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>At our institution, we take pride in offering a diverse range of courses designed to meet the needs of every student. Our curriculum is carefully crafted to provide both foundational knowledge and advanced skills, ensuring that each course is not only comprehensive but also relevant to today’s dynamic job market. Whether you’re looking to gain a new certification, deepen your expertise in a specific field, or explore new areas of interest, our courses are tailored to help you achieve your goals. Our experienced instructors, state-of-the-art facilities, and supportive learning environment make us the ideal place to further your education and take the next step in your career.
+
+        </p>
+        <div class="row">
+            <div class="course-rol">
+                <h3>Titulo</h3>
+                <p>Nuestro programa de Título está diseñado para proporcionar una formación integral y avanzada en diversas disciplinas, con el objetivo de preparar a los estudiantes para asumir roles de liderazgo y responsabilidad en sus campos profesionales. <br> Este programa de grado superior es ideal para aquellos que buscan alcanzar un nivel de expertise que les permita sobresalir en el mercado laboral y contribuir significativamente en sus áreas de especialización.</p>
+            </div>
+            <div class="course-rol">
+                <h3>Intermedio</h3>
+                <p>Nuestro programa Intermedio está diseñado para estudiantes que desean profundizar sus conocimientos y habilidades en un campo específico antes de avanzar a niveles más avanzados. <br> Este programa sirve como un puente entre la educación básica y la especialización avanzada, ofreciendo una combinación equilibrada de teoría y práctica para preparar a los estudiantes para enfrentar desafíos más complejos y tomar decisiones informadas en su área de estudio.</p>
+            </div>
+            <div class="course-rol">
+                <h3>Post graduation</h3>
+                <p>En nuestro programa de posgrado, ofrecemos una oportunidad única para que los profesionales y académicos amplíen sus horizontes y avancen en sus carreras. <br>Nuestro enfoque integral combina teoría avanzada con experiencia práctica en campos especializados, garantizando que nuestros graduados no solo adquieran conocimientos profundos, sino que también estén preparados para enfrentar los desafíos del mundo real.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="campus">
+        <h1>Our Global Campus</h1>
+        <p>En este campus, los alumnos podran acceder a diferentes funciones, ademas, podran acceder a sus boletines virtuales.</p>
+        <div class="row">
+            <div class="campus-col">
+                <img src="imagenes/newyork.png" alt="">
+                <div class="layer">
+                    <h3>BUENOS AIRES</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="imagenes/london.png" alt="">
+                <div class="layer">
+                    <h3>Corrientes</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="imagenes/washington.png" alt="">
+                <div class="layer">
+                    <h3>Cordoba</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="facilitates">
+        <h1>What We Facilitate</h1>
+        <div class="facilitates-row">
+            <div class="facilitates-col">
+                <img src="imagenes/library.png" alt="">
+                <h3>Librería de clase mundial PA</h3>
+                <p>Sé el próximo Elon Musk.</p>
+            </div>
+            <div class="facilitates-col">
+                <img src="imagenes/basketball.png" alt="">
+                <h3>Sala de deportes</h3>
+                <p>Sé el próximo Kobe Bryant.</p>
+            </div>
+            <div class="facilitates-col">
+                <img src="imagenes/cafeteria.png" alt="">
+                <h3>Cafetería</h3>
+                <p>Prueba los mejores macchiatos.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <h1>Lo que dicen los estudiantes</h1>
+        <div class="testimonials-row">
+            <div class="testimonial-col">
+                <img src="imagenes/user1.jpg" alt="Maria Lopez">
+                <p>"La mejor experiencia educativa que he tenido. Los profesores son increíblemente atentos y el ambiente es inmejorable."</p>
+                <h3>Maria Lopez</h3>
+                <span>Estudiante</span>
+            </div>
+            <div class="testimonial-col">
+                <img src="imagenes/user2.jpg" alt="Juan Pérez">
+                <p>"Un lugar donde realmente se preocupan por tu crecimiento personal y profesional. ¡Altamente recomendado!"</p>
+                <h3>Juan Pérez</h3>
+                <span>Ex-Alumno</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <h1>Contáctanos</h1>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h2>Estén en contacto</h2>
+                <p>Si tienen alguna consulta no duden en contactarnos.</p>
+                <ul>
+                    <li><i class="fa-solid fa-phone"></i> +54 11 3333 5152</li>
+                    <li><i class="fa-solid fa-envelope"></i> sanmarcos.edu.ar@sanmarcos.edu.ar</li>
+                    <li><i class="fa-solid fa-location-dot"></i> Murature 786</li>
+                </ul>
+            </div>
+            <div class="contact-form">
+                <h2>Formulario de contacto</h2>
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd-v9gPHH1j0-N0IRPdIFV9vyRHF19PFkYVedugxZbNvzsjMg/viewform?embedded=true" width="100%" height="600" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+            </div>
+        </div>
+    </section>
+        
+</body>
+</html>
